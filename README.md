@@ -51,3 +51,11 @@ pnpm install --frozen-lockfile && pnpm build
 # Start Command
 
 pnpm start:prod
+
+# Git Push command
+
+git push origin main
+
+# Live server url
+
+https://nestapis.onrender.com

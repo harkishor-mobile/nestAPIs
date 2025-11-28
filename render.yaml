@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: nest-production-app
+    envVars:
+      - key: NODE_ENV
+        value: production
+    buildCommand: 'pnpm install --frozen-lockfile && pnpm build'
+    startCommand: 'pnpm start:prod'

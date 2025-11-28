@@ -41,3 +41,13 @@ pnpm run test:cov
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 
 # Added SSH key
+
+# Render Deployment Settings
+
+# Build Command
+
+pnpm install --frozen-lockfile && pnpm build
+
+# Start Command
+
+pnpm start:prod

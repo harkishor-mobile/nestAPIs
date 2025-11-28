@@ -4,6 +4,10 @@
 
 ## Project setup
 
+# Command for initialize project
+
+nest new my-nest-app --package-manager pnpm
+
 # Install Dependencies
 
 pnpm install
@@ -59,3 +63,18 @@ git push origin main
 # Live server url
 
 https://nestapis.onrender.com
+
+# Commands for generate file and folders
+
+- Generate module
+  pnpm nest g module moduleName
+
+- Generate service
+  pnpm nest g service serviceName
+
+- Generate controller
+  pnpm nest g controller controllerName
+
+# Check folder structure of root
+
+- tree folderName
